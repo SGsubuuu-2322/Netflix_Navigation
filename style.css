@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Young serif";
+  font-family: "Muli";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +15,17 @@ body {
   margin: 0;
 }
 
+.text {
+  text-transform: uppercase;
+}
+
 .logo {
   width: 150px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
 }
